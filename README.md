@@ -67,7 +67,6 @@ uint8_t SCCB_Read(uint8_t slv_addr, uint8_t reg)
 
     return rx_buffer[0];
 }
+```
 
 4. 修改完 `idf.py build` 重新编译即可
-
-```
